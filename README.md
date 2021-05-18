@@ -17,7 +17,7 @@ A Discord bot that dynamically creates and deletes voice channels as needed.
 
    > Don't forget to give your bot the `Manage Channels` and `Move Members` permissions!
 
-2. Download this widget and move `src-discord-dynamic-voice-channels-bot` into the [src/widgets](https://github.com/peterthehan/create-discord-bot/tree/master/app/src/widgets) folder created in step 1.
+2. Download this widget and move the `src-discord-dynamic-voice-channels-bot` folder into the [src/widgets/](https://github.com/peterthehan/create-discord-bot/tree/master/app/src/widgets) folder created in step 1.
 
 3. Open [config.json](https://github.com/peterthehan/discord-dynamic-voice-channels-bot/blob/master/src-discord-dynamic-voice-channels-bot/config.json) to configure your own settings:
 
