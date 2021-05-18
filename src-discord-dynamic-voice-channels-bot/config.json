@@ -1,0 +1,8 @@
+[
+  {
+    "guildId": "258167954913361930",
+    "mainVoiceChannelIds": ["618571553591787554", "266523094015934465"],
+    "newVoiceChannelSuffix": "🤖",
+    "maxVoiceChannelCount": 5
+  }
+]
