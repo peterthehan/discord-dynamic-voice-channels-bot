@@ -17,9 +17,9 @@ A Discord bot that dynamically creates and deletes voice channels as needed.
 
    > Don't forget to give your bot the `Manage Channels` and `Move Members` permissions!
 
-2. Download this widget and move the `src-discord-dynamic-voice-channels-bot` folder into the [src/widgets/](https://github.com/peterthehan/create-discord-bot/tree/master/app/src/widgets) folder created in step 1.
+2. Download this bot and move the `src-discord-dynamic-voice-channels-bot` folder into the [/src/bots](https://github.com/peterthehan/create-discord-bot/tree/master/src/bots) folder from step 1.
 
-3. Open [config.json](https://github.com/peterthehan/discord-dynamic-voice-channels-bot/blob/master/src-discord-dynamic-voice-channels-bot/config.json) to configure your own settings:
+3. Open [config.json](./src-discord-dynamic-voice-channels-bot/config.json) to configure your own settings:
 
    ```json
    [
@@ -34,7 +34,7 @@ A Discord bot that dynamically creates and deletes voice channels as needed.
 
    Add as many rules as you want to configure for other servers.
 
-   - `guildId` is your server id.
+   - `guildId` is the server id.
    - `mainVoiceChannelIds` are the voice channel ids the bot watches for users when creating cloned voice channels.
    - `newVoiceChannelSuffix` is the string appended to the name of the cloned voice channel. Make sure this string is unique among your voice channels, the bot matches against this string when determining which voice channels to delete when they're no longer in use!
    - `maxVoiceChannelCount` is the max number of cloned voice channels the bot will create.
@@ -44,5 +44,5 @@ A Discord bot that dynamically creates and deletes voice channels as needed.
 Visit for more help or information!
 
 <a href="https://discord.gg/WjEFnzC">
-  <img src="https://discordapp.com/api/guilds/258167954913361930/embed.png?style=banner2" title="Discord Server"/>
+  <img src="https://discord.com/api/guilds/258167954913361930/embed.png?style=banner2" title="Discord Server"/>
 </a>
